@@ -1,0 +1,16 @@
+.Leader {
+	padding: 3rem 0 0 0;
+	position: relative;
+}
+
+.Leader>img {
+	position: relative;
+	width: 60%;
+	height: 100%;
+	bottom: 0;
+}
+
+.Leader__Head {
+	width: 50%;
+	z-index: 2;
+}
