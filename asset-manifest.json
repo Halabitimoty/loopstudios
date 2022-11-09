@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/loopstudios/static/css/main.1c5fc005.css",
+    "main.js": "/loopstudios/static/js/main.ca8791ca.js",
+    "index.html": "/loopstudios/index.html",
+    "main.1c5fc005.css.map": "/loopstudios/static/css/main.1c5fc005.css.map",
+    "main.ca8791ca.js.map": "/loopstudios/static/js/main.ca8791ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c5fc005.css",
+    "static/js/main.ca8791ca.js"
+  ]
+}
