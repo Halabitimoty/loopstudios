@@ -23,11 +23,6 @@
 	font-family: 'Inter', sans-serif;
 }
 
-/* .relative-img {
-	position: relative;
-	z-index: -1;
-	width: 100%;
-}*/
 
 .Creation__Stack {
 	position: relative;
@@ -49,4 +44,53 @@
 	font-size: 1.5rem;
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
+}
+
+@media screen and (max-width: 960px) {
+	.Creation__Head {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		padding: 2rem 0;
+	}
+
+	.Creation__Head>p {
+		font-family: 'Inter', sans-serif;
+		font-weight: 400;
+		font-size: 1.5rem;
+		border-bottom: 1px solid hsl(0, 0%, 55%);
+	}
+
+	.Creation__Head>button {
+		display: none;
+	}
+
+	.Creation__Image>img {
+		width: 100%;
+		font-family: 'Inter', sans-serif;
+	}
+
+
+	.Creation__Stack {
+		position: relative;
+	}
+
+	.Creation__Stack__Image {
+		width: 100%;
+		height: auto;
+	}
+
+	.Creation__Stack__P {
+		position: absolute;
+		bottom: 70px;
+		left: 30px;
+		color: hsl(0, 0%, 100%);
+		border: none;
+		text-transform: uppercase;
+		width: 50%;
+		font-size: 1rem;
+		font-family: 'Inter', sans-serif;
+		font-weight: 400;
+	}
 }

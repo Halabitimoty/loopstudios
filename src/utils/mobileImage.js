@@ -16,7 +16,7 @@ export const imagesMobile = [
     title: "The grid",
   },
   {
-    image: require("../assets/mobile/image-interactive.jpg"),
+    image: require("../assets/mobile/image-from-above.jpg"),
     title: "From up above VR",
   },
   {

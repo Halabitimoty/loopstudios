@@ -35,3 +35,39 @@
 	padding: 0.5rem;
 	color: hsl(0, 0%, 55%);
 }
+
+@media screen and (max-width: 960px) {
+	.Leader {
+		padding: 2rem 0 0 0;
+		position: static;
+		height: auto;
+		text-align: center;
+	}
+
+	.Leader>img {
+		position: static;
+		width: 100%;
+	}
+
+	.Leader__Head {
+		position: static;
+		width: 100%;
+		background-color: hsl(0, 0%, 100%);
+		padding: 3rem 1rem;
+	}
+
+	.Leader__Head>h4 {
+		font-size: 2rem;
+		font-family: 'Inter', sans-serif;
+		font-weight: 400;
+		padding: 0.5rem;
+	}
+
+	.Leader__Head>p {
+		font-size: 1rem;
+		font-family: 'Inter', sans-serif;
+		font-weight: 300;
+		padding: 0.5rem;
+		color: hsl(0, 0%, 55%);
+	}
+}
