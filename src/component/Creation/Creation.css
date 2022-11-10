@@ -1,0 +1,52 @@
+.Creation__Head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	padding: 2rem 0;
+}
+
+.Creation__Head>p {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+.Creation__Head>button {
+	padding: 0.5rem 2rem;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.Creation__Image>img {
+	width: 100%;
+	font-family: 'Inter', sans-serif;
+}
+
+/* .relative-img {
+	position: relative;
+	z-index: -1;
+	width: 100%;
+}*/
+
+.Creation__Stack {
+	position: relative;
+}
+
+.Creation__Stack__Image {
+	width: 100%;
+	height: auto;
+}
+
+.Creation__Stack__P {
+	position: absolute;
+	bottom: 70px;
+	left: 30px;
+	color: hsl(0, 0%, 100%);
+	border: none;
+	text-transform: uppercase;
+	width: 50%;
+	font-size: 1.5rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}

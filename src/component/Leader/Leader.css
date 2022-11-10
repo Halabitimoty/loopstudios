@@ -1,0 +1,37 @@
+.Leader {
+	padding: 2rem 0 0 0;
+	position: relative;
+	height: 700px;
+}
+
+.Leader>img {
+	position: absolute;
+	width: 60%;
+	left: 0;
+	bottom: 0;
+}
+
+.Leader__Head {
+	position: absolute;
+	width: 60%;
+	right: 0;
+	bottom: 0;
+	height: 320px;
+	background-color: hsl(0, 0%, 100%);
+	padding: 5rem 3rem;
+}
+
+.Leader__Head>h4 {
+	font-size: 3rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	padding: 0.5rem;
+}
+
+.Leader__Head>p {
+	font-size: 1rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	padding: 0.5rem;
+	color: hsl(0, 0%, 55%);
+}
