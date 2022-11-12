@@ -8,7 +8,7 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 .Footer__H>div {
@@ -25,6 +25,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	list-style-type: none;
 }
 
 .Footer__H>.Hero__Nav>ul>li>a {
@@ -54,4 +55,112 @@
 
 .Footer__B__SocialMedia>a {
 	padding: 0.5rem 0 1rem 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+	.Footer {
+		padding: 0.7rem 0;
+	}
+
+	.Footer__H>div {
+		padding: 0.7rem 0;
+	}
+
+	.Footer__H,
+	.Footer__B {
+		width: 45%;
+	}
+
+	.Footer__H>.Hero__Nav>ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		list-style-type: none;
+	}
+
+	.Footer__H>.Hero__Nav>ul>li>a {
+		line-height: 0.7rem;
+		font-weight: 400;
+		font-size: 0.7rem;
+	}
+
+	.Footer__H>li {
+		padding: 1.7rem 0.7rem;
+	}
+
+	.Footer__B__SocialMedia,
+	.Footer__B__Hero {
+		padding: 0.7rem;
+	}
+
+	.Footer__B__SocialMedia>a {
+		padding: 0.5rem 0 1rem 1rem;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.Footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+		padding: 1rem 0;
+	}
+
+	.Footer__H>div {
+		padding: 1rem 0;
+	}
+
+	.Footer__H,
+	.Footer__B {
+		width: 100%;
+	}
+
+	.Footer__H>.Hero__Nav>ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		list-style-type: none;
+	}
+
+	.Footer__H>.Hero__Nav>ul>li {
+		padding: 20px;
+	}
+
+	.Footer__H>.Hero__Nav>ul>li>a {
+		text-decoration: none;
+		color: hsl(0, 0%, 100%);
+		letter-spacing: 3px;
+		line-height: 1rem;
+		font-weight: 400;
+		font-size: 1rem;
+	}
+
+	.Footer__H>li {
+		padding: 2rem 1rem;
+	}
+
+	.Footer__B {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Footer__B__SocialMedia,
+	.Footer__B__Hero {
+
+		padding: 1rem;
+	}
+
+	.Footer__B__SocialMedia>a {
+		padding: 0.5rem 0 1rem 1rem;
+	}
+
+	.Hero__Logo {
+		font-size: 40px;
+		text-align: center;
+	}
 }
