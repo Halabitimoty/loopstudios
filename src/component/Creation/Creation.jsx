@@ -11,7 +11,7 @@ function Creation() {
 
   const desktopDisplay = desktopImage.map((e) => (
     <div className="col-lg-3 col-md-6 col-sm-12 p-2">
-      <div className="Creation__Stack">
+      <div className="Creation__Stack" data-aos="zoom-in-up">
         <img src={e.image} alt="" className="Creation__Stack__Image" />
         <p className="Creation__Stack__P">{e.title}</p>
       </div>
@@ -20,7 +20,7 @@ function Creation() {
 
   const mobilepDisplay = mobileImage.map((e) => (
     <div className="col-lg-3 col-md-6 col-sm-12 p-2">
-      <div className="Creation__Stack">
+      <div className="Creation__Stack" data-aos="zoom-in-up">
         <img src={e.image} alt="" className="Creation__Stack__Image" />
         <p className="Creation__Stack__P">{e.title}</p>
       </div>

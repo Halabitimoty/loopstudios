@@ -9,7 +9,7 @@ function Header() {
         <div className="Hero__Head">
           <Nav />
         </div>
-        <div className="Hero__Body">
+        <div data-aos="fade-down" className="Hero__Body">
           <p>IMMERSIVE</p>
           <p>EXPERIENCES</p>
           <p>THAT DELIVER</p>
